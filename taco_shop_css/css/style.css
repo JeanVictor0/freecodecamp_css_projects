@@ -65,13 +65,13 @@ input, button, textarea {
         --BORDER-COLOR: whitesmoke;
         --BUTTON-COLOR: #000;
         --FONT-COLOR: whitesmoke;
-        --HEADER-BGCOLOR: whitesmoke;
+        --HEADER-COLOR: whitesmoke;
         --HERO-COLOR: #333;
         --HIGHLIGHT-COLOR: whitesmoke;
         --LINK-ACTIVE: rgb(252, 200, 103);
         --LINK-COLOR: whitesmoke;
         --LINK-HOVER: orange;
-        --NAV-BGCOLOR: rgb(20,20.20);
+        --NAV-BGCOLOR: rgb(20, 20, 20);
     }
 }
 
@@ -346,7 +346,7 @@ tfoot td {
     border-bottom-right-radius: var(--BORDER-RADIUS);
 }
 
-@media screen and (min-widht: 576px) {
+@media screen and (min-width: 576px) {
     .header__h1::before {
         content: '🌮 ';
     }
